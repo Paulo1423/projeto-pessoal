@@ -1,7 +1,7 @@
 package com.backaofront;
 // criando as raças/objetos, e atribuindo os valores de status de cada um.
 public class Status {
-		public static Raca humana = new Raca(60, 50, 60, 75, 65);
+		public static Raca humano = new Raca(60, 50, 60, 75, 65);
 	  public static Raca vampiro = new Raca(70, 65, 80, 50, 45);
 		public static	Raca elfo = new Raca(35, 45, 80, 75, 75);
 		public static	Raca orc = new Raca(110, 80, 45, 40, 35);
