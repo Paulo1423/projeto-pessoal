@@ -6,7 +6,11 @@ import javax.swing.JOptionPane;
 public class Main {
 	static void main(String[] args) {
 		FlatDarkLaf.setup();
-		JOptionPane.showMessageDialog(null, Status.humano);
+		JOptionPane.showMessageDialog(null, "Força: " + (Status.humano.forc
+						+ "\n" +
+						"Vida: " + Status.humano.vid
+						+ "\n" +
+						"Velocidade: " + Status.humano.vel));
 
 	}
 }

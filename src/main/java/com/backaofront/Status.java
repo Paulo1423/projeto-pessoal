@@ -7,7 +7,8 @@ public class Status {
 		public static	Raca orc = new Raca(110, 80, 45, 40, 35);
 		public static	Raca draconiano = new Raca(85, 70, 70, 50, 35);
 		public static	Raca bruxa = new Raca(35, 35, 35, 95, 110);
-
+		public static Raca lobisomem = new Raca(90, 75, 75, 40, 30);
+		// public static Raca mago = new Raca(0,0,0,0,0,); // 310
 }
 // força, vida, velocidade, dominio, Nem/mana.
 // total de pontos base são 300.
