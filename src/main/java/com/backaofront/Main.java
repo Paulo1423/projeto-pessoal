@@ -5,6 +5,7 @@ import javax.swing.JOptionPane;
 
 public class Main {
 	public static void main(String[] args) {
+		InterfaceMain janela = new InterfaceMain(800, 600);
 		FlatDarkLaf.setup();
 			// Criando o menu de escolha de raças.
 			int menu = JOptionPane.showOptionDialog(null, "Escolha sua raça",
